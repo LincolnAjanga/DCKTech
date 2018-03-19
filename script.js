@@ -1,3 +1,4 @@
+//jQuery
 //Change header color
 $(document).ready(function(){
 	$("button#fa").click(function(){
