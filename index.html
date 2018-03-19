@@ -19,7 +19,7 @@
       text-align: center;
       font-family: Pacifico;
       font-size: 60px;
-       text-shadow: 2px 2px 4px #000000;
+      text-shadow: 2px 2px 4px #000000;
     }
     #j1{
       text-align: center; 
@@ -100,6 +100,11 @@
       padding:0px;
       margin: auto;
      }
+
+  ::-webkit-input-placeholder { 
+    color:indigo;
+    opacity: 1;
+  }
   </style>
     
   <body class="body">
@@ -113,21 +118,27 @@
     </div>
     <div class="row">
       <div class="col-6">
-    <h1 style="font-family: Pacifico; font-size: 50px" id="wel">Welcome to DCKikuyu Rd Database</h1>
+    <h1 style="font-family: Pacifico; font-size: 50px;text-shadow: 2px 2px 4px #000000;" id="wel">Welcome to DCKikuyu Rd Database</h1>
   </div>
   <div class="col-6">
     <img src="unnamed.png" alt="" height="200" width="200">
   </div>
 </div><br>
+</div>
+<div class="row">
+  <div class="container">
+  <div class="col-12">
 <div class="jumbotron" id="j2">
    <h3 style="color: #000;">Please login</h3>
 <form class="center">
   <label></label>
-  <input placeholder="User name" id="in1">
-  <input placeholder="Password " id="in2"></br></br>
+  <input type="text" placeholder="User name" id="in1"></br>
+ <br> <input type="text" placeholder="Password " id="in2"></br></br>
   <button class="btn btn-lg btn-default" id="fu" type="submit">Login</button>
   <button class="btn btn-lg btn-default" id="fv" type="submit">Cancel</button>
 </form>
+</div>
+</div>
 </div>
 </div>
 <!-- footer -->
