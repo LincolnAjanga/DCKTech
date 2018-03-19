@@ -1,14 +1,14 @@
 //Change header color
 $(document).ready(function(){
 	$("button#fa").click(function(){
-		$(".header").css("color", "blue");
+		$(".header").css("color", "royalblue");
 
 	});
 	$("button#fe").click(function(){
-		$(".header").css("color", "red");
+		$(".header").css("color", "maroon");
 	});
 	$("button#fi").click(function(){
-		$(".header").css("color", "yellow");
+		$(".header").css("color", "indigo");
 	});
 	$("button#fo").click(function(){
 		$(".header").css("color", "green");
@@ -19,13 +19,13 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$("button#fa").click(function(){
-		$(".jumbotron").css("background-color","blue");
+		$(".jumbotron").css("background-color","royalblue");
 	});
 	$("button#fe").click(function(){
-		$(".jumbotron").css("background-color","red");
+		$(".jumbotron").css("background-color","maroon");
 	});
 	$("button#fi").click(function(){
-		$(".jumbotron").css("background-color","yellow");
+		$(".jumbotron").css("background-color","indigo");
 	});
 	$("button#fo").click(function(){
 		$(".jumbotron").css("background-color","green");
