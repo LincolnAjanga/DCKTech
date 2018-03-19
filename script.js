@@ -32,3 +32,18 @@ $(document).ready(function(){
 		$(".jumbotron").css("background-color","green");
 	});
 });
+
+$(document).ready(function(){
+	$("button#fa").click(function(){
+		$("#wel").css("color","royalblue");
+	});
+	$("button#fe").click(function(){
+		$("#wel").css("color","maroon");
+	});
+	$("button#fi").click(function(){
+		$("#wel").css("color","indigo");
+	});
+	$("button#fo").click(function(){
+		$("#wel").css("color","green");
+	});
+});
